@@ -1,0 +1,92 @@
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f3e9;
+}
+
+.background {
+    background-image: url('images/chaat_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1.heading {
+    text-align: center;
+    font-size: 3em;
+    color: #d56238;
+    margin-top: 20px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+p.description {
+    text-align: center;
+    font-size: 1.2em;
+    color: #444;
+}
+
+.menu-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item h2 {
+    font-size: 1.8em;
+    color: #d56238;
+}
+
+.menu-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #e91e63;
+}
+
+.menu-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.footer-text {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.feedback-link {
+    font-size: 1.2em;
+    color: #d56238;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.feedback-link:hover {
+    text-decoration: underline;
+}
+
+
